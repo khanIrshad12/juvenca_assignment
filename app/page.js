@@ -265,7 +265,10 @@ export default function Home() {
                     Payout
                   </p>
                 </div>
-                <div className=" border-gradient border-gradient-purple border-4 rounded-lg p-3 ">
+                <div className="rounded-xl w-full bg-gradient-to-r p-[5px] from-[#7928ca] to-[#ff0080]">
+
+                
+                <div className="bg-white   rounded-lg p-3 ">
                   <div className="flex justify-between items-center py-3">
                     <div>
                       <p className="font-bold">Prize pool:</p>
@@ -282,6 +285,7 @@ export default function Home() {
                       Enter Down
                     </div>
                   </div>
+                </div>
                 </div>
                 <div className="flex flex-col justify-center items-center py-3">
                   <p className="text-slate-300 flex space-x-2">
